@@ -11,6 +11,7 @@ To use this repository:
 8. Make sure you update your password in your database connection string and your database name in your connection string. This is line 60 in the ``main.py`` application.
 <br><br>Currently it is set to ``mysql+mysqlconnector://root:410Luna@localhost/ecommerce_api_2`` where ``410Luna`` is an example password and ``e_commerce_api_2`` is my chosen database name.
 <br>You will need to change these values to the ones you've chosen for your database.
+
 9. Save your changes and then run the application in terminal by activating your venv and typing ``python main.py``
 10. Once you've got your Python application running, open Postman and you can use Postman to send HTTP requests to your API endpoints to test that they are working.
 
