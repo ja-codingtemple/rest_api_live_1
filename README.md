@@ -12,5 +12,6 @@ To use this repository:
 Currently it is set to ``mysql+mysqlconnector://root:410Luna@localhost/ecommerce_api_2`` where ``410Luna`` is an example password and ``e_commerce_api_2`` is my chosen database name.
 You will need to change these values to the ones you've chosen for your database.
 9. Save your changes and then run the application in terminal by activating your venv and typing ``python main.py``
+10. Once you've got your Python application running, open Postman and you can use Postman to send HTTP requests to your API endpoints to test that they are working.
 
 Make sure you add all the other required endpoints specified in your project instructions. If you're at any point confused about how to do this, please check out Lesson 5 in the Relational Databases & REST API module in Disco.
